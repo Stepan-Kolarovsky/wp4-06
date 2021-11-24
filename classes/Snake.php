@@ -6,17 +6,11 @@ class Snake extends Animal
 
 public function __construct(string $name,int $legs,string $poisnonus)
 {
-  $this->name;
-  $this->legs;
-  $this->poisnonus;
+    $this->name = $Animal->$name;
+    $this->legs = $Animal->$legs;
+    $this->poisnonus = $poisnonus;
 }
-public function getname() {
-    return $this->name;
-}
-public function getlegs() {
-    return $this->legs;
-}
-public function getpoisnonus()
+public function getPoisnonus()
 {
     return $this->poisnonus;
 }

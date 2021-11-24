@@ -6,17 +6,11 @@ class Bird extends Animal
 
 public function __construct(string $name,int $legs,string $isflying)
 {
-  $this->name;
-  $this->legs;
-  $this->isflying;
+    $this->name = $Animal->$name;
+    $this->legs = $Animal->$legs;
+  $this->isflying = $isflying;
 }
-public function getname() {
-    return $this->name;
-}
-public function getlegs() {
-    return $this->legs;
-}
-public function getisflying()
+public function getIsFlying()
 {
     return $this->isflying;
 }

@@ -6,18 +6,12 @@ class Dog extends Animal
 
   public function __construct(string $name,int $legs,string $fur)
    {
-    $this->name;
-    $this->legs;
-    $this->fur;
+    $this->name = $Animal->$name;
+    $this->legs = $Animal->$legs;
+    $this->fur = $fur;
    }
 
-public function getname() {
-    return $this->name;
-}
-public function getlegs() {
-    return $this->legs;
-}
-public function getfur()
+public function getFur()
 {
     return $this->fur;
 }
