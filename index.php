@@ -1,8 +1,5 @@
 <?php
-require_once "classes/Animal.php";
-require_once "classes/Dog.php";
-require_once "classes/Bird.php";
-require_once "classes/Snake.php";
+require_once "vendor/autoload.php";
 
 $animals[] = new Dog("žerik",4,"brown");
 $animals[] = new Dog("fido",4,"black");

@@ -1,0 +1,15 @@
+{
+    "name": "root/wp4-06",
+    "authors": [
+        {
+            "name": "Štěpán Kolarovský",
+            "email": "stepan.kolarovsky@student.ossp.cz"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "classes/"
+        ]
+    }
+}
